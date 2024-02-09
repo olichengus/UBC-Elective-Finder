@@ -1,0 +1,80 @@
+/* referenced chatgpt for styling */
+
+.site-title {
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-top: 0;
+	padding: 30px;
+	color: #F0FFFF;
+	font-size: 40px;
+	font-weight:lighter;
+	text-align: center;
+}
+
+.input {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #F0FFFF;
+	border: none;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.input-boxes {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: center;
+}
+
+.input::placeholder {
+	color: rgba(255, 255, 255, 0.4);
+	font-style: italic;
+}
+
+.button {
+	background-color: #54af58;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.1s ease;
+}
+
+.button:hover {
+	background-color: rgba(84, 175, 88, 0.61);
+	color: rgba(255, 255, 255, 0.53);
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	background-color: #54af58;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+
+}
+
+th, td {
+	width: 25%;
+}
+
+tr {
+	border-bottom: 1px solid #ddd;
+}
+
+td {
+	padding: 10px;
+}
+
+tr:hover {
+	background-color: rgba(224, 224, 224, 0.35);
+}
