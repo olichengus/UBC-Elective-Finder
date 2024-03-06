@@ -2,7 +2,6 @@ import "./query.css";
 import React, {useState} from 'react';
 import axios from "axios";
 
-// Code based on AI generated response
 const GetDepartmentCourses = () => {
 	const [enterDept, setDept] = useState('');
 	const [resultMessage, setResultMessage] = useState('');
@@ -63,7 +62,6 @@ const GetDepartmentCourses = () => {
 
 
 			const response = await axios.post('http://localhost:3000/query', {
-				// chat gpt helped with whereClause
 				WHERE: whereClause,
 				OPTIONS: {
 					COLUMNS: [
